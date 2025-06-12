@@ -12,8 +12,15 @@ No additional installation required - uses only Python standard library.
 
 ### Usage
 ```bash
+# Basic usage
 python main.py
+
+# Personalized greeting
+python main.py Alice
+python main.py John Doe
 ```
+
+The application provides time-appropriate greetings (Good morning, Good afternoon, Good evening, Good night) when given a name.
 
 ## Development
 
